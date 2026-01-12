@@ -7,7 +7,6 @@ class Person:
         Person.people[name] = self
 
 
-
 def create_person_list(people: list) -> list:
     person_list = []
     for person in people:
